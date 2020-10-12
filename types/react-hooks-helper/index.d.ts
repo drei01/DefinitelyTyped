@@ -17,7 +17,7 @@ export interface NavigationProps {
 }
 
 export interface UseStepParams {
-    initialStep?: number;
+    initialStep?: number | string;
     autoAdvanceDuration?: number;
     steps: string[] | number;
 }
